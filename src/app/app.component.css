@@ -1,0 +1,82 @@
+body{
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+mat-toolbar.mat-toolbar.mat-toolbar-single-row {
+    background-color: white;
+}
+.opalLogo{
+    /* height: 40px; */
+    width: 15rem;
+}
+.socialMedia{
+    font-size: 10px !important;
+}
+
+/* *****HEADER****** */
+
+.navbar {
+    background-color: #f78320 !important; 
+    
+  }
+
+  .navbar-brand, .navbar-nav a {
+    color: white !important; 
+  }
+
+  .navbar-nav .nav-item:not(:last-child) {
+    margin-right: 1rem; 
+  }
+
+  .navbar-nav .nav-item a {
+    position: relative;
+    color: white;
+  }
+
+  .navbar-nav .nav-item:not(:last-child) {
+    border-right: 1px solid rgba(104, 96, 96, 0.642); 
+    padding-right: 5px;
+}
+
+
+
+  .nav-item a:hover {
+    color: lightgray !important;
+}
+
+/* *****section****** */
+
+.chimney{
+    background-image: url("../assets/chimney.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 7rem;
+}
+
+.contentText{
+    font-size:15px;
+    width: 90%;
+}
+
+
+/* *********footer*********  */
+.footer-container {
+    background-color: #141414; 
+    color: grey; 
+    position: relative;
+    top: 6rem;
+
+  }
+
+
+
+  /* **********media query********** */
+  @media (max-width: 768px) { 
+    .example-spacer {
+        display: none;
+      }
+}  
